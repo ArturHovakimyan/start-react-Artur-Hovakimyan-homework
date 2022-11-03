@@ -56,7 +56,6 @@ class Counter extends React.Component {
     });
   };
   resetCount = () => {
-    document.getElementById("form").reset()
     localStorage.setItem("count", 0)
     this.setState({
       max: 10,
